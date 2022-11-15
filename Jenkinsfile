@@ -1,6 +1,5 @@
 pipeline {
     agent any
-	tools {nodejs "Default"}
     stages {
         stage('Checkout') {
             steps {
